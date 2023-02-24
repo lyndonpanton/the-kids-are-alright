@@ -5,7 +5,10 @@
         static void Main(string[] args)
         {
             Kid kid = new Kid();
+            Happy happy = new Happy();
+
             kid.PrintMessage();
+            happy.PrintMessage();
         }
     }
 }
